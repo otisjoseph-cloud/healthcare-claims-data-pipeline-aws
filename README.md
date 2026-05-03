@@ -8,6 +8,10 @@ The goal is to demonstrate how healthcare claims data could move from raw intake
 
 This is an architecture-focused portfolio project using sample or synthetic claims data only. No real patient, member, provider, or payment data is included.
 
+## Architecture Diagram
+
+![Healthcare Claims Data Pipeline Architecture](diagrams_architecture.png)
+
 ## Architecture Goal
 
 The architecture is designed to support a healthcare operations use case where claims or payment-related data must be collected, validated, stored, queried, and reviewed for reporting or operational analysis.
