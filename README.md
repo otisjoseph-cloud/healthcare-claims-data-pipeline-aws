@@ -106,26 +106,24 @@ Cost-aware design decisions include:
 - S3 data organization must be designed carefully
 - This approach is strong for analytics, but not ideal for low-latency transactional workloads
 
-## Planned Repository Structure
+## Repository Structure
 
-- `diagrams/` - Architecture diagrams
-- `sample-data/` - Synthetic claims data examples
-- `sql/` - Athena SQL query examples
-- `docs/` - Additional design notes and tradeoff analysis
+- `diagrams_architecture.png` - Architecture diagram for the AWS claims data pipeline
+- `sample-data` - Synthetic claims sample data
+- `sql/athena_queries.sql` - Athena SQL query examples
+- `docs/design-notes.md` - Design notes and architecture decision support
 - `README.md` - Project overview and documentation
 
 ## Future Enhancements
 
 Future enhancements could include:
 
-- Architecture diagram
-- Synthetic claims dataset
-- Athena SQL examples
 - Cost estimate comparison
 - CloudWatch monitoring plan
 - Glue crawler configuration notes
 - Data partitioning strategy
 - Optional Power BI dashboard mockup
+- Optional Parquet conversion example
 
 ## Interview Explanation
 
